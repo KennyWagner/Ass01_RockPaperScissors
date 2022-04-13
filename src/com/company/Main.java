@@ -36,11 +36,11 @@ public class Main
                 }
                 else if (player2.equalsIgnoreCase("P"))
                 {
-                    System.out.println("Paper beats Rock, player 2 wins!");
+                    System.out.println("Paper covers Rock, player 2 wins!");
                 }
                 else if (player2.equalsIgnoreCase("S"))
                 {
-                    System.out.println("Rock beats Scissors, player 1 wins!");
+                    System.out.println("Rock breaks Scissors, player 1 wins!");
                 }
 
             }
@@ -48,7 +48,7 @@ public class Main
             {
                 if (player2.equalsIgnoreCase("R"))
                 {
-                    System.out.println("Paper beats Rock, player 1 wins!");
+                    System.out.println("Paper covers Rock, player 1 wins!");
                 }
                 else if (player2.equalsIgnoreCase("P"))
                 {
@@ -56,18 +56,18 @@ public class Main
                 }
                 else if (player2.equalsIgnoreCase("S"))
                 {
-                    System.out.println("Scissors beats paper, player 2 wins!");
+                    System.out.println("Scissors cuts paper, player 2 wins!");
                 }
             }
             else if (player1.equalsIgnoreCase("S"))
             {
                 if (player2.equalsIgnoreCase("R"))
                 {
-                    System.out.println("Rock beats Scissors, player 2 wins!");
+                    System.out.println("Rock breaks Scissors, player 2 wins!");
                 }
                 else if (player2.equalsIgnoreCase("P"))
                 {
-                    System.out.println("Scissors beats paper, player 1 wins!");
+                    System.out.println("Scissors cuts paper, player 1 wins!");
                 }
                 else if (player2.equalsIgnoreCase("S"))
                 {
